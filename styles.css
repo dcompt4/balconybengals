@@ -1,0 +1,22 @@
+header {
+    width: 100%;
+    background-color: gray;
+}
+
+@media screen and (max-device-width: 501px){
+    header img {
+        width: 100%;
+    }
+    header div {
+        margin: 0 auto;
+    }
+}
+@media screen and (min-device-width: 501px){
+    header img {
+        width: 20%;
+
+    }
+    header div {
+        margin: 0 auto;
+    }
+}
